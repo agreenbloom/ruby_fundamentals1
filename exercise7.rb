@@ -15,3 +15,5 @@ student_displ(studentsHash)
 studentsHash[:cohort4] = 43
 
 student_displ(studentsHash)
+
+puts studentsHash.keys
