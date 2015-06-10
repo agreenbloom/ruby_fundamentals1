@@ -26,4 +26,7 @@ end
 
 student_displ(studentsHash)
 
+studentsHash.delete("cohort2")
+student_displ(studentsHash)
+
 
