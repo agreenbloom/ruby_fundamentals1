@@ -29,4 +29,7 @@ puts grocery_list[1]
 
 list(grocery_list).sort
 
+four = grocery_list[4]
 
+four = grocery_list.pop
+puts grocery_list
