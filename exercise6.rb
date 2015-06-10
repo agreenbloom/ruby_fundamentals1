@@ -13,9 +13,14 @@ def list(value)
   end
 end
 
-
 list(grocery_list)
 
-
 puts grocery_list.size
+
+
+if grocery_list && "bananas"
+  puts "You need to pick up bananas"
+ else
+  puts "You don't need to pick up bananas"
+end
 
