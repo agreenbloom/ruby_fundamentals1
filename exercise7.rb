@@ -17,3 +17,13 @@ studentsHash[:cohort4] = 43
 student_displ(studentsHash)
 
 puts studentsHash.keys
+
+student_displ(studentsHash)
+
+studentsHash.each do |key, value|
+  studentsHash[key] = value * 1.05
+end
+
+student_displ(studentsHash)
+
+
