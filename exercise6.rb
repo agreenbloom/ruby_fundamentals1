@@ -24,3 +24,6 @@ if grocery_list && "bananas"
   puts "You don't need to pick up bananas"
 end
 
+puts grocery_list[1]
+
+
