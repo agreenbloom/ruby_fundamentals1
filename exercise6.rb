@@ -27,3 +27,6 @@ end
 puts grocery_list[1]
 
 
+list(grocery_list).sort
+
+
